@@ -16,13 +16,13 @@ public class UserModel {
     private String userName;
     @NotEmpty
     private String name;
-    @NotNull
+//    @NotNull
     private Date dob;
     @NotEmpty
     private String bloodGroup;
     @NotEmpty
     private String password;
-    @NotNull
+//    @NotNull
     private LocalDateTime createdOn;
     @NotNull
     private String createdBy;

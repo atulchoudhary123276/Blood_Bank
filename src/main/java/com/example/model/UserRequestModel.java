@@ -17,7 +17,7 @@ public class UserRequestModel {
     private String type;
     @NotNull
     private Long quantity;
-    @NotNull
+//    @NotNull
     private LocalDateTime createdOn;
     @NotEmpty
     private String createdBy;
